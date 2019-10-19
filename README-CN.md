@@ -6,8 +6,8 @@
 
 # 语言
 
-- [英语](.\README.md)
-- [中文](.\README-CN.md)
+- [英语](README.md)
+- [中文](README-CN.md)
 
 # 背景
 
