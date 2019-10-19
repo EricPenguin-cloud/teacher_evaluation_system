@@ -33,11 +33,11 @@ This project is a practical training project developed by myself in school.As th
 
 # Visuals
 
-![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-1.png''管理员端数据可视化'')
+![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-1.png)
 
-![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-2.png'评价列表示意'')
+![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-2.png)
 
-![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-3.png''查看评价结果'')
+![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-3.png)
 
 
 
