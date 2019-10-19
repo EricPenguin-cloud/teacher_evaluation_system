@@ -1,0 +1,30 @@
+[
+  {
+    "id": 71,
+    "result_t_id": 27,
+    "subject": "该教师不具有不良现象，如迟到、早退等",
+    "answer": "非常满意",
+    "score": "10"
+  },
+  {
+    "id": 72,
+    "result_t_id": 27,
+    "subject": "该教师工作衣着得体、举止大方",
+    "answer": "满意",
+    "score": "8"
+  },
+  {
+    "id": 83,
+    "result_t_id": 29,
+    "subject": "该教师不具有不良现象，如迟到、早退等",
+    "answer": "非常满意",
+    "score": "10"
+  },
+  {
+    "id": 84,
+    "result_t_id": 29,
+    "subject": "该教师工作衣着得体、举止大方",
+    "answer": "满意",
+    "score": "8"
+  }
+]

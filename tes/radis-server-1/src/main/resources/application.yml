@@ -1,0 +1,11 @@
+server:
+  port: 8071
+spring:
+  application:
+    name: radis-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server-1.com:8075/eureka,http://eureka-server-2.com:8076/eureka,http://eureka-server-3.com:8077/eureka
+    register-with-eureka: true
+    fetch-registry: true

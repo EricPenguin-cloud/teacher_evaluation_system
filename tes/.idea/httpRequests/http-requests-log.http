@@ -1,0 +1,400 @@
+POST http://localhost:8090/selectAnswerT?gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-17T111442.200.json
+
+###
+
+POST http://localhost:8070/selectAnswerT?gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-16T101030.200.json
+
+###
+
+POST http://localhost:8070/selectAnswerT?gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-16T100842.200.json
+
+###
+
+POST http://localhost:8070/selectCountT?gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-16T100832.200.json
+
+###
+
+POST http://localhost:8070/selectAnswerS?gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-16T100819-1.200.json
+
+###
+
+POST http://localhost:8070/selectAnswerS?gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-16T100819.200.json
+
+###
+
+POST http://localhost:8070/selectCountS?gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-16T100800.200.json
+
+###
+
+POST http://localhost:8070/StudentList?gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-16T100736.200.json
+
+###
+
+POST http://localhost:8090/ShowStudentEvaluateData?gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T093534.200.json
+
+###
+
+POST http://localhost:8090/ShowStudentEvaluateData?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T093303.500.json
+
+###
+
+GET http://localhost:8090/ShowStudentEvaluateData?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T093256.500.json
+
+###
+
+GET http://localhost:8090/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T043945.200.html
+
+###
+
+POST http://localhost:8090/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T043928.405.json
+
+###
+
+POST http://localhost:8090/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042858.405.json
+
+###
+
+POST http://localhost:8090/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042856-1.405.json
+
+###
+
+POST http://localhost:8090/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042856.405.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042804.405.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042803-1.405.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042803.405.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042802-1.405.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042802.405.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042800-1.405.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T042800.405.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T041848.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T041847.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T041758.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T041753.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T041751.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T041737.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T041736-1.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T041736.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T041733.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T040855.404.json
+
+###
+
+POST http://localhost:8090/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T040847.404.json
+
+###
+
+POST http://localhost:8090/admin/login?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T040831.404.json
+
+###
+
+POST http://localhost:8070/StudentLogin?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T035122.404.json
+
+###
+
+POST http://localhost:8070/StudentLogin?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T035121.404.json
+
+###
+
+POST http://localhost:8090/StudentLogin?username=169000702&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T035058.500.json
+
+###
+
+POST http://localhost:8090/StudentLogin?username=169000818&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T035004.200.json
+
+###
+
+POST http://localhost:8090/StudentLogin?username=169000818&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T035003.200.json
+
+###
+
+POST http://localhost:8090/StudentLogin?username=169000818&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T034959.200.json
+
+###
+
+POST http://localhost:8090/gradeList?username=123&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T022535.200.json
+
+###
+
+POST http://localhost:8090/courseList?username=123&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T022524.200.json
+
+###
+
+POST http://localhost:8090/courseList?username=123&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T022002.200.json
+
+###
+
+POST http://localhost:8090/Teacherlist?username=123&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T020114.200.json
+
+###
+
+POST http://localhost:8070/TeacherLogin?username=123&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T015136.200.json
+
+###
+
+POST http://localhost:8070/TeacherLogin?username=001&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T015021.200.json
+
+###
+
+POST http://localhost:8090/tea_item?username=169000818&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T013137.200.json
+
+###
+
+POST http://localhost:8090/hello?username=169000818&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T013129.200.json
+
+###
+
+POST http://localhost:8090/StudentLogin?username=169000818&password=123456
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-15T115324.200.json
+
+###
+

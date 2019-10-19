@@ -1,0 +1,72 @@
+[
+  {
+    "id": 116,
+    "result_s_id": 50,
+    "subject": "该教师具有责任心",
+    "answer": "满意",
+    "score": "8"
+  },
+  {
+    "id": 117,
+    "result_s_id": 50,
+    "subject": "该教师上课使用普通话",
+    "answer": "满意",
+    "score": "8"
+  },
+  {
+    "id": 118,
+    "result_s_id": 50,
+    "subject": "该教师上课为学生提供讨论的机会",
+    "answer": "一般满意",
+    "score": "6"
+  },
+  {
+    "id": 119,
+    "result_s_id": 50,
+    "subject": "该教师上课能使用现代信息技术教学",
+    "answer": "一般满意",
+    "score": "6"
+  },
+  {
+    "id": 120,
+    "result_s_id": 50,
+    "subject": "该教师认真批改布置的作业",
+    "answer": "一般满意",
+    "score": "6"
+  },
+  {
+    "id": 121,
+    "result_s_id": 50,
+    "subject": "该教师不具有不良现象，如吸烟、接打手机、迟到、早退、无故不上课等",
+    "answer": "一般满意",
+    "score": "6"
+  },
+  {
+    "id": 122,
+    "result_s_id": 50,
+    "subject": "该教师言行举止得体",
+    "answer": "满意",
+    "score": "8"
+  },
+  {
+    "id": 123,
+    "result_s_id": 50,
+    "subject": "该教师愿意课后为学生解答问题",
+    "answer": "一般满意",
+    "score": "6"
+  },
+  {
+    "id": 124,
+    "result_s_id": 50,
+    "subject": "该教师教学具有特色，有一定吸引力",
+    "answer": "一般满意",
+    "score": "6"
+  },
+  {
+    "id": 125,
+    "result_s_id": 50,
+    "subject": "该教师指导学生参加或组织一些实践活动",
+    "answer": "满意",
+    "score": "8"
+  }
+]

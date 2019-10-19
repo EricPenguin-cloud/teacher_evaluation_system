@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server (1)" />
+        <module name="tes (1) (com.cqgcxy)" />
+        <module name="eureka-server" />
+        <module name="eureka-server (2)" />
+        <module name="cqgcxy" />
+        <module name="tes (2) (com.cqgcxy)" />
+        <module name="tes" />
+        <module name="client" />
+        <module name="cqgcxy (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="radis-server" target="1.8" />
+      <module name="sql-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client" options="-parameters" />
+      <module name="cqgcxy" options="-parameters" />
+      <module name="cqgcxy (1)" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server (1)" options="-parameters" />
+      <module name="eureka-server (2)" options="-parameters" />
+      <module name="radis-server" options="-parameters" />
+      <module name="sql-server" options="-parameters" />
+      <module name="tes (1) (com.cqgcxy)" options="-parameters" />
+      <module name="tes (2) (com.cqgcxy)" options="-parameters" />
+    </option>
+  </component>
+</project>

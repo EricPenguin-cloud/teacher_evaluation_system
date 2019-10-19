@@ -1,0 +1,8 @@
+{
+  "timestamp": 1571025718910,
+  "status": 404,
+  "error": "Not Found",
+  "exception": "java.lang.IllegalStateException",
+  "message": "/WEB-INF/jsp/errorPage.jsp",
+  "path": "/showResult"
+}

@@ -1,0 +1,55 @@
+{
+  "flag": 1,
+  "result": [
+    {
+      "id": 25,
+      "teacher": {
+        "id": 44,
+        "number": "123",
+        "name": "李老师",
+        "sex": "女",
+        "phone": "123456",
+        "password": "123456"
+      },
+      "course": {
+        "id": 1,
+        "name": "数据结构"
+      },
+      "grade": null
+    },
+    {
+      "id": 26,
+      "teacher": {
+        "id": 45,
+        "number": "127",
+        "name": "张老师",
+        "sex": "女",
+        "phone": "123456",
+        "password": "123456"
+      },
+      "course": {
+        "id": 1,
+        "name": "数据结构"
+      },
+      "grade": null
+    },
+    {
+      "id": 27,
+      "teacher": null,
+      "course": {
+        "id": 2,
+        "name": "操作系统"
+      },
+      "grade": null
+    },
+    {
+      "id": 28,
+      "teacher": null,
+      "course": {
+        "id": 2,
+        "name": "操作系统"
+      },
+      "grade": null
+    }
+  ]
+}

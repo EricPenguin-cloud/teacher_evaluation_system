@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cqgcxy.tes.mapper.publicMapper">
+    <resultMap type="com.cqgcxy.tes.pojo.Relationship_tcg" id="relationship">
+        <id property="id" column="id" />
+        <association property="teacher" javaType="com.cqgcxy.tes.pojo.Teacher" column="tid" select="selectteacherbytid"></association>
+        <association property="course" javaType="com.cqgcxy.tes.pojo.Course" column="cid" select="selectcoursebycid"></association>
+    </resultMap>
+    <select id="selectteacherbytid" parameterType="int" resultType="com.cqgcxy.tes.pojo.Teacher">
+    select * from teacher where id=#{tid}
+    </select>
+    <select id="selectcoursebycid" parameterType="int" resultType="com.cqgcxy.tes.pojo.Course">
+    select * from course where id=#{cid}
+    </select>
+</mapper>

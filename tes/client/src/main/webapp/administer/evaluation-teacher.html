@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>导入教师评价指标</title>
+
+    <!-- Styles -->
+    <link href="../assets/css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/css/lib/themify-icons.css" rel="stylesheet">
+    <link href="../assets/css/lib/data-table/buttons.bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/lib/menubar/sidebar.css" rel="stylesheet">
+    <link href="../assets/css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/lib/helper.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
+    <div class="nano">
+        <div class="nano-content">
+            <ul>
+                <div class="logo"><a href="admin-index.html"><!-- <img src="assets/images/logo.png" alt="" /> --><span>首页</span></a></div>
+                <li><a class="sidebar-sub-toggle"><i class="ti-user"></i>用户信息<span class="sidebar-collapse-icon ti-angle-down"></span></a>
+                    <ul>
+                        <li><a href="inform-stu.html">学生信息</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="inform-teacher.html">教师信息</a></li>
+                    </ul>
+                </li>
+                <li><a class="sidebar-sub-toggle"><i class="ti-plus"></i>用户导入<span class="sidebar-collapse-icon ti-angle-down"></span></a>
+                    <ul>
+                        <li><a href="import-stu.html">学生信息导入</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="import-teacher.html">教师信息导入</a></li>
+                    </ul>
+                </li>
+                <li><a class="sidebar-sub-toggle"><i class="ti-target"></i>评教指标<span class="sidebar-collapse-icon ti-angle-down"></span></a>
+                    <ul>
+                        <li><a href="evaluation-teacher.html">教师评价指标</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="evaluation-peer.html">同行评价指标</a></li>
+                    </ul>
+                </li>
+                <li><a class="sidebar-sub-toggle"><i class="ti-notepad"></i>评教结果<span class="sidebar-collapse-icon ti-angle-down"></span></a>
+                    <ul>
+                        <li><a href="result-teacher.html">教师评价结果</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="result-peer.html">同行评价结果</a></li>
+                    </ul>
+                </li>
+                <li class="label">其他</li>
+                <li><a href="admin-course.html"><i class="ti-layout-grid2-alt"></i>教师课程管理</a></li>
+                <!--<li><a><i class="ti-close"></i>退出登录</a></li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="header">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="float-left">
+                    <div class="hamburger sidebar-toggle">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="float-right">
+                    <div class="dropdown dib">
+                        <div class="header-icon" data-toggle="dropdown">
+                            <i class="ti-bell"></i>
+                        </div>
+                    </div>
+                    <div class="dropdown dib">
+                        <div class="header-icon" data-toggle="dropdown">
+                            <i class="ti-email"></i>
+                        </div>
+                    </div>
+                    <div class="dropdown dib" id='user_inform'>
+                            
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content-wrap">
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 p-r-0 title-margin-right">
+                    <div class="page-header">
+                        <div class="page-title">
+                            <h1>Hello, <span>Welcome Here</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /# row -->
+            <section>
+                <div >
+                    <div style="text-align: center;width: auto;">
+                        <div style="">
+                            <form>
+                                <span style="margin-right: 30px;font-size: 18px">导入教师评价指标</span>
+                                <input type="text" placeholder="Excel" style="border: none;height: 35px;outline:none;">&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="file">
+                                <button style="border: none;height: 35px;width: 80px">确&nbsp;&nbsp;定</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section></section>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- jquery vendor -->
+<script src="../assets/js/lib/jquery.min.js"></script>
+<script src="../assets/js/lib/jquery.nanoscroller.min.js"></script>
+<!-- nano scroller -->
+<script src="../assets/js/lib/menubar/sidebar.js"></script>
+<script src="../assets/js/lib/preloader/pace.min.js"></script>
+<!-- sidebar -->
+
+<!-- bootstrap -->
+
+<script src="../assets/js/lib/bootstrap.min.js"></script><script src="../assets/js/scripts.js"></script>
+<!-- scripit init-->
+<script src="../assets/js/lib/data-table/datatables.min.js"></script>
+<script src="../assets/js/lib/data-table/dataTables.buttons.min.js"></script>
+<script src="../assets/js/lib/data-table/buttons.flash.min.js"></script>
+<script src="../assets/js/lib/data-table/jszip.min.js"></script>
+<script src="../assets/js/lib/data-table/pdfmake.min.js"></script>
+<script src="../assets/js/lib/data-table/vfs_fonts.js"></script>
+<script src="../assets/js/lib/data-table/buttons.html5.min.js"></script>
+<script src="../assets/js/lib/data-table/buttons.print.min.js"></script>
+<script src="../assets/js/lib/data-table/datatables-init.js"></script>
+
+</body>
+
+</html>

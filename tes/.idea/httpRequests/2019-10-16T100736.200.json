@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "number": "169000818",
+    "name": "qianxin",
+    "sex": "男",
+    "password": "123456",
+    "grade": {
+      "id": 1,
+      "name": "1690008",
+      "list": null
+    }
+  },
+  {
+    "id": 75,
+    "number": "169000701",
+    "name": "小明",
+    "sex": "男",
+    "password": "123456",
+    "grade": {
+      "id": 1,
+      "name": "1690008",
+      "list": null
+    }
+  },
+  {
+    "id": 76,
+    "number": "169000702",
+    "name": "小芳",
+    "sex": "女",
+    "password": "123456",
+    "grade": {
+      "id": 1,
+      "name": "1690008",
+      "list": null
+    }
+  },
+  {
+    "id": 77,
+    "number": "169000703",
+    "name": "李华",
+    "sex": "男",
+    "password": "123456",
+    "grade": {
+      "id": 1,
+      "name": "1690008",
+      "list": null
+    }
+  }
+]

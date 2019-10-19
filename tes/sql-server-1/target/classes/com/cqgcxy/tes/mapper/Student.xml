@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cqgcxy.tes.mapper.StudentMapper">
+    <select id="get" resultMap="studentinfo">
+    select * from  teacher_evaluation_system.student where number=#{name} and password=#{password}
+  </select>
+    <resultMap type="com.cqgcxy.tes.pojo.Student" id="studentinfo">
+        <id property="id" column="id" />
+        <result property="number" column="number" />
+        <result property="name" column="name" />
+        <result property="sex" column="sex" />
+        <association property="grade" javaType="com.cqgcxy.tes.pojo.Grade" column="gid" select="selectgradebyid"></association>
+    </resultMap>
+    <select id="selectgradebyid" parameterType="int" resultType="com.cqgcxy.tes.pojo.Grade">
+		select * from grade where id=#{gid}
+	</select>
+
+    <select id="selectrelationship" resultMap="com.cqgcxy.tes.mapper.publicMapper.relationship">
+        select * from relationship_tcg where gid=#{gid}
+    </select>
+
+    <select id="studentlist" resultMap="studentinfo">
+        SELECT * FROM teacher_evaluation_system.student;
+  </select>
+    <delete id="studentdel" parameterType="int">
+        delete from student where sid=#{sid}
+    </delete>
+    <update id="studentupdate" parameterType="com.cqgcxy.tes.cnd.Studentcnd">
+        update student set name=#{name},sex=#{sex},password=#{password} where sid=#{sid}
+    </update>
+    <update id="studentupdateadmin" parameterType="com.cqgcxy.tes.cnd.Studentcnd">
+        update student set number=#{number},name=#{name},sex=#{sex},password=#{password},gid=#{gid} where sid=#{sid}
+    </update>
+    <update id="studentpw_reset" parameterType="int">
+        update student set password = 123456  where sid=#{sid};
+  </update>
+    <update id="updatePasswordStudent" parameterType="com.cqgcxy.tes.cnd.Studentcnd">
+        update student set password=#{password} where number=#{number}
+    </update>
+    <select id="getstu" parameterType="int" resultType="com.cqgcxy.tes.pojo.Student">
+        select * from student where
+  </select>
+
+    <insert id="insertstudentcnd" parameterType="com.cqgcxy.tes.cnd.Studentcnd">
+        insert into student(id,number,name,sex,password,gid) values(default,#{number},#{name},#{sex},123456,#{gid})
+    </insert>
+   <!-- <insert id="insertstudent" parameterType="hashmap">
+        insert into student values (default ,#{number},#{name},#{sex},#{password},#{gid})
+    </insert>-->
+    <insert id="insertstudentevaluation" parameterType="com.cqgcxy.tes.cnd.Result_scnd">
+        insert into result_s (sid,tid,total) values ( #{sid},#{tid},#{total})
+        <selectKey resultType="int" order="AFTER" keyProperty="id">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <insert id="insertdetailedevaluate" parameterType="com.cqgcxy.tes.cnd.Record_scnd">
+        insert into record_s (result_s_id,subject,answer,score) values (#{result_s_id},#{subject},#{answer},#{score})
+    </insert>
+
+    <!--根据学生id查看评价结果-->
+    <select id="selectshowresult" resultType="com.cqgcxy.tes.cnd.Record_scnd">
+        select record_s.* from result_s,record_s where result_s.sid=#{sid} and result_s.id=record_s.result_s_id
+    </select>
+
+    <select id="showresult" resultType="com.cqgcxy.tes.cnd.Record_scnd">
+        select record_s.* from result_s,record_s where result_s.sid=#{sid} and result_s.tid=#{tid} and result_s.id=record_s.result_s_id
+    </select>
+
+    <select id="selectStudentStaete" resultType="com.cqgcxy.tes.cnd.Result_scnd">
+        SELECT * FROM result_s where sid=#{sid}
+    </select>
+
+    <select id="selectCountS" parameterType="int" resultType="int">
+        select count(*) from result_s where total>#{total1} and total&lt;=#{total2}
+    </select>
+
+    <select id="selectAnswerS" resultType="int">
+        select count(*) from record_s where answer=#{answer}
+    </select>
+
+</mapper>

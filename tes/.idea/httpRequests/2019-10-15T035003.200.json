@@ -1,0 +1,15 @@
+{
+  "flag": 1,
+  "result": {
+    "id": 1,
+    "number": "169000818",
+    "name": "qianxin",
+    "sex": "男",
+    "password": "123456",
+    "grade": {
+      "id": 1,
+      "name": "1690008",
+      "list": null
+    }
+  }
+}

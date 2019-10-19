@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cqgcxy.tes.mapper.TeacherMapper">
+    <select resultType="com.cqgcxy.tes.pojo.Teacher" id="get">
+        select * from teacher where number=#{number} and password=#{password}
+    </select>
+    <select id="teacherlist" resultType="com.cqgcxy.tes.pojo.Teacher">
+        select * from teacher
+    </select>
+    <delete id="teacherdel" parameterType="int">
+        delete from teacher where tid=#{tid}
+    </delete>
+    <update id="teacherupdate" parameterType="com.cqgcxy.tes.pojo.Teacher">
+        update teacher set name=#{name},sex=#{sex},phone=#{phone},password=#{password} where tid=#{tid}
+    </update>
+    <update id="teacherpw_reset" parameterType="int">
+        update teacher set password = 123456  where tid=#{tid};
+    </update>
+    <update id="updatePasswordTeacher" parameterType="com.cqgcxy.tes.pojo.Teacher">
+        update teacher set password=#{password} where number=#{number}
+    </update>
+    <!--根据教师id查询教师所教的课程-->
+    <select id="selectteachercourse" resultType="com.cqgcxy.tes.cnd.Relationship_tcgcnd">
+        select * from relationship_tcg where tid=#{tid}
+    </select>
+    <!--根据课程查询需评同行的教师-->
+    <select id="selectteachercolleague" resultMap="com.cqgcxy.tes.mapper.publicMapper.relationship">
+        select * from relationship_tcg where cid=#{cid} and tid != #{tid}
+    </select>
+
+    <insert id="insertteacherevaluation" parameterType="com.cqgcxy.tes.cnd.Result_tcnd">
+        insert into result_t (t_id1,t_id2,total) values ( #{t_id1},#{t_id2},#{total})
+        <selectKey resultType="int" order="AFTER" keyProperty="id">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <insert id="insertdatateacherevaluate" parameterType="com.cqgcxy.tes.cnd.Record_tcnd">
+        insert into record_t (result_t_id,subject,answer,score) values (#{result_t_id},#{subject},#{answer},#{score})
+    </insert>
+
+    <!--根据教师id查看评价结果-->
+    <select id="selectshowresultteacher" resultType="com.cqgcxy.tes.cnd.Record_tcnd">
+        select record_t.* from result_t,record_t where result_t.t_id1=#{tid} and result_t.id=record_t.result_t_id
+    </select>
+    <select id="selectTeacherSate" resultType="com.cqgcxy.tes.cnd.Result_tcnd">
+        SELECT * FROM result_t where t_id1=#{t_id1}
+    </select>
+
+    <select id="selectShowResult" resultType="com.cqgcxy.tes.cnd.Record_tcnd">
+        select record_t.* from result_t,record_t where result_t.t_id1=#{t_id1} and result_t.t_id2=#{t_id2} and result_t.id=record_t.result_t_id
+    </select>
+    <select id="selectCountT" parameterType="int" resultType="int">
+        select count(*) from result_t where total>#{total1} and total&lt;=#{total2}
+    </select>
+
+    <select id="selectAnswerT" resultType="int">
+        select count(*) from record_t where answer=#{answer}
+    </select>
+</mapper>

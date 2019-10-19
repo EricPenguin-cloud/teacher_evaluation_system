@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-10-15T07:50:58.391+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "status 404 reading SqlService#StudentLogin(String,String)",
+  "path": "/StudentLogin"
+}

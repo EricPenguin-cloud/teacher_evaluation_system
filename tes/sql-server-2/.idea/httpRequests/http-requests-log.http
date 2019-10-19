@@ -1,0 +1,563 @@
+POST http://localhost:8070/get_tcg_id?tid=1&cid=1&gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T033200.200.json
+
+###
+
+POST http://localhost:8070/get_tcg_id?tid=1&cid=1&gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T032351.200.json
+
+###
+
+POST http://localhost:8070/StudentTeacherRelationship?tid=1&cid=1&gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T030012.200.txt
+
+###
+
+POST http://localhost:8070/StudentTeacherRelationship?tid=1&cid=1&gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T025740.404.json
+
+###
+
+POST http://localhost:8070/StudentTeacherRelationship?tid=1&cid=1&gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T025647.404.json
+
+###
+
+POST http://localhost:8070/StudentTeacherRelationship?tid=1&cid=1&gid=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T024403.404.json
+
+###
+
+POST http://localhost:8070/courseList?t_id1=1&t_id2=6
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T022520.200.json
+
+###
+
+POST http://localhost:8070/gradeList?t_id1=1&t_id2=6
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T021603.200.json
+
+###
+
+POST http://localhost:8070/showEvaluateResult?t_id1=1&t_id2=6
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T120900.200.json
+
+###
+
+POST http://localhost:8070/showEvaluateResult?t_id1=1&t_id2=6
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T120207.200.json
+
+###
+
+POST http://localhost:8070/showResult?t_id1=1&t_id2=6
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T120158.404.json
+
+###
+
+POST http://localhost:8070/showResult?sid=1&tid=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-14T112808.200.json
+
+###
+
+POST http://localhost:8070/Teacherlist
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-12T015157.200.json
+
+###
+
+POST http://localhost:8070/gradeList
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-12T122450-1.200.json
+
+###
+
+POST http://localhost:8070/gradeList
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-10-12T122450.200.json
+
+###
+
+POST http://localhost:8070/gradeList?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+###
+
+POST http://localhost:8070/gradeList?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+###
+
+POST http://localhost:8070/gradeList?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\student.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+
+POST http://localhost:8070/ImportFileTeacher?=
+Accept: */*
+Cache-Control: no-cache
+Content-Type: multipart/form-data
+
+--null
+
+
+< C:\Users\Administrator\Desktop\学生信息导入.xls
+--null--
+
+###
+

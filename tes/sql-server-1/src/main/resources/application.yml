@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: sql-server
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://localhost:3306/teacher_evaluation_system?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8073
+mybatis:
+  mapper-locations: classpath:com/cqgcxy/tes/mapper/*.xml
+  type-aliases-package: com.cqgcxy.tes.pojo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server-1.com:8075/eureka,http://eureka-server-2.com:8076/eureka,http://eureka-server-3.com:8077/eureka
+    register-with-eureka: true
+    fetch-registry: true
