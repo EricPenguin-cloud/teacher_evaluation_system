@@ -27,17 +27,20 @@
 
 # 技术架构
 
-![](.\md_img\tes-4.png)
 
-![](.\md_img\tes-5.png)
+
+![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-4.png)
+
+![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-5.png)
 
 # 视觉效果
 
-![](.\md_img\tes-1.png''管理员端数据可视化'')
 
-![](.\md_img\tes-2.png''评价列表示意'')
+![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-1.png)
 
-![](.\md_img\tes-3.png''查看评价结果'')
+![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-2.png)
+
+![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-3.png)
 
 
 
