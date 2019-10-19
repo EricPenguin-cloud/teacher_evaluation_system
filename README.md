@@ -27,7 +27,7 @@ This project is a practical training project developed by myself in school.As th
 
 # Architecture
 
-![](.\md_img\tes-4.png)
+![](https://github.com/EricPenguin-cloud/teacher_evaluation_system/blob/master/md_img/tes-4.png)
 
 ![](.\md_img\tes-5.png)
 
