@@ -1,6 +1,6 @@
 # Teacher Evaluatin System
 
-![](https://img.shields.io/badge/build-passing-green.svg)![](https://img.shields.io/badge/coverage-90%-yellowgreen.svg)  
+![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/coverage-90%-yellowgreen.svg)  
 
 ![](https://img.shields.io/badge/java-1.8-red.svg)![](https://img.shields.io/badge/maven-3.6.0-yellow.svg)![](https://img.shields.io/badge/npm-6.11.3-orange.svg)![](https://img.shields.io/badge/mysql-8.0.15-lightgrey.svg)![](https://img.shields.io/badge/radis-3.2-blue.svg)![](https://img.shields.io/badge/springboot-2.1.9-lightgreen.svg)
 
