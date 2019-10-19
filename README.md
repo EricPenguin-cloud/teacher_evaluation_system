@@ -6,8 +6,8 @@
 
 # Language
 
-- [English](.\README.md)
-- [Chinese](.\README-CN.md)
+- [English](README.md)
+- [Chinese](README-CN.md)
 
 # Background
 
