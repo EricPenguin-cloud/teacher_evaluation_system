@@ -1,4 +1,4 @@
-# Teacher Evaluatin System
+# Teacher Evaluation System
 
 ![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/coverage-90%-yellowgreen.svg)  
 
