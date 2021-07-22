@@ -27,7 +27,7 @@
     "style-loader": "^1.0.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
-    "xlsx": "^0.15.1"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "webpack-bundle-analyzer": "^3.5.2"
